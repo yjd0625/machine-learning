@@ -19,14 +19,15 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix, roc_curve, auc
 from sklearn.preprocessing import StandardScaler
 
-def main():
-    parser = argparse.ArgumentParser(description="逻辑回归分类器")
-    parser.add_argument('--solver', type=str, default='lbfgs', choices=['newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga'],
-                        help='优化算法')
-    parser.add_argument('--C', type=float, default=1.0, help='正则化强度的倒数')
-    parser.add_argument('--max_iter', type=int, default=100, help='最大迭代次数')
-    args = parser.parse_args()
 
+parser = argparse.ArgumentParser(description="逻辑回归分类器")
+parser.add_argument('--solver', type=str, default='lbfgs', choices=['newton-cg', 'lbfgs', 'liblinear', 'sag', 'saga'],
+                    help='优化算法')
+parser.add_argument('--C', type=float, default=1.0, help='正则化强度的倒数')
+parser.add_argument('--max_iter', type=int, default=100, help='最大迭代次数')
+args = parser.parse_args()
+
+def main():
     # 加载数据
     iris = datasets.load_iris()
     X = iris.data[:, :2]  # 只取前两个特征以便于可视化

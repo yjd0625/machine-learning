@@ -1,11 +1,11 @@
 """
 ==================================================
-作者：Yao Jiadong
-邮箱：jdyao0625@foxmail.com
+Author：Yao Jiadong
+e-mail：jdyao0625@foxmail.com
 GitHub：https://github.com/yjd0625/machine-learning.git
-创建日期：2025-07-03
-最后修改：2025-07-03
-版本：1.0
+create：2025-07-03
+update：2025-07-03
+version：1.0
 ==================================================
 """
 

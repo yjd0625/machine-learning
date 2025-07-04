@@ -1,3 +1,15 @@
+"""
+==================================================
+Author：Yao Jiadong
+e-mail：jdyao0625@foxmail.com
+GitHub：https://github.com/yjd0625/machine-learning.git
+create：2025-07-03
+update：2025-07-03
+version：1.0
+==================================================
+"""
+
+
 import argparse
 import matplotlib.pyplot as plt
 from sklearn import datasets

@@ -3,11 +3,15 @@
 Python implementations of various machine learning algorithms.
 Single file for easy learning and use.   
 
-## Table
+## Algorithm List
 - [LinearRegression](#LinearRegression)
 - [LogisticsRegression](#LogisticsRegression)
 - [SVM](#SVM)
 - [DecisionTree](#DecisionTree)
+- [RandomForest](#RandomForest)
+- [XGBoost](#XGBoost)
+- [LightGBM](#LightGBM)
+- [CatBoost](#CatBoost)
 
 ## environment
 | environment  | version |

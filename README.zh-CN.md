@@ -3,10 +3,14 @@
 各种机器学习算法的Python实现，使用单文件，便于学习和使用。
 
 ## 列表
-- [线性回归](#线性回归)
-- [逻辑回归](#逻辑回归)
-- [支持向量机](#支持向量机)
-- [决策树](#决策树)
+- [LinearRegression](#LinearRegression)
+- [LogisticsRegression](#LogisticsRegression)
+- [SVM](#SVM)
+- [DecisionTree](#DecisionTree)
+- [RandomForest](#RandomForest)
+- [XGBoost](#XGBoost)
+- [LightGBM](#LightGBM)
+- [CatBoost](#CatBoost)
 
 ## 环境
 | 环境           | 版本      |
